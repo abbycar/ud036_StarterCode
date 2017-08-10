@@ -1,8 +1,10 @@
 # Movie trailer website
 
 ## Description
+**This is an academic project from the [Full Stack Udacity course](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)**.
 
-This is a webpage that displays a series of movie box art. A movie's trailer plays once its box art has been selected.
+
+This project contains a webpage that displays a series of movie box art. A movie's trailer plays once its box art has been selected.
 
 ## What's required
 

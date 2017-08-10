@@ -1,15 +1,22 @@
+"""This module defines the Movie class which holds all the
+info about a movie.
+"""
 import webbrowser
 
+
 class Movie():
-    """This class provides a way to store move related info"""
-    VALID_RATINGS = ["G", "PG", "PG-13", "R"]
-    
-    def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
+    """This class provides a way to store movie related info"""
+
+    def __init__(self, movie_title, movie_storyline, poster_image,
+                 trailer_youtube):
+        """Initiates Movie with a title, short description, box art, and
+        a YouTube trailer.
+        """
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
     def show_trailer(self):
+        """Opens the link to the YouTube URL"""
         webbrowser.open(self.trailer_youtube_url)
-        

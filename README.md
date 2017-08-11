@@ -17,6 +17,6 @@ Walk through the following steps to run the movie trailer website.
 2. Unzip the folder
 3. Open the terminal for your computer
 4. Navigate to the project's directory
-5. Executre the following command: `python entertainment_center.py`
+5. Execute the following command: `python entertainment_center.py`
 
 You default browser should then launch with the movie trailer webpage loaded.
